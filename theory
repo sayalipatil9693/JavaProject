@@ -1,0 +1,99 @@
+oops
+encapsulation - all the related entities in a single unit.it leds to data hiding
+public member, protected ,private
+
+
+inheritance-  reusability , share the properties with another class
+    super
+    constructor
+    type
+
+abstraction - hiding irrelevant data 
+
+
+polymorphism: many forms
+
+
+inheritance:-
+sharing of properties and method
+it is inheriting properties of parent class into child
+imp
+1. keyword- extends
+2. every class as parent class except object class 
+3. only one parent class bcoz java does not support multiple inheritance
+
+NOTE:- CONSTRUCTOR CAn not called or shared in child class and same as private
+
+IS A RELATION :- 
+inheritance: tight coupling:- two classes are highly dependent on each other
+when is called child having is same behaviour as parents
+use when inherited classes
+adv:-
+1. code resusability
+2. cost cutting:- 
+3. reduce redundancy
+
+Association:- not tight coupling
+HAS a:- nested class or composition relationship
+aggregation:-weak bonding
+composition:- strong bonding
+
+
+
+
+
+inheritance:
+
+
+1.single inheritance:  class based
+ A class ---------> Bclass
+ B obj =new B()
+ class A shearing propertieswith B class
+ both classes acess with help of B classes
+
+
+ hierarochical inheritance:class based
+ shearing the properties- base class
+ drived :- corspp to which or with shrering
+
+                       A class :- base class/ super class /parent class
+                            |
+                        ____|______
+                        |          |
+drived /child/sub  B class    C class: drived /sub /child
+class A shearing properties with B class & c class
+
+
+ MULTILEVEL:-class based
+
+                        A class    parent to B
+                           |
+                           |
+                        B class    parent to C
+                           |          child A
+                           |
+                           |
+                         C class     child B
+                        
+
+ MULTIPLE:- ineterfaces based
+ multiple parents to one child
+ more base classes and only one derived class
+   
+                A class            B class
+                   |                  |
+                   |                  |
+                   _____________________
+                             |
+                             C class
+
+
+
+
+
+
+hybrid: interfaced based:
+merger of other inheritance
+
+
+
